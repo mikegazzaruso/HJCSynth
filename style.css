@@ -29,13 +29,8 @@ body {
 }
 
 .title p {
-    margin-bottom: 10px;
     color: #2b2116;
     font-size: 11px;
-}
-
-.subtitle p {
-    font-size: 13px;
 }
 
 .piano {
