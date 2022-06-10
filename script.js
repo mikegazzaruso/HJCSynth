@@ -2,7 +2,7 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 var ctx = null;
 var osc = null;
 
-const keyElement = document.querySelectorAll('.key');
+const keys = document.querySelectorAll('.key');
 const startAudioButton = document.querySelector('.startAudio');
 
 const freqs = {
@@ -40,7 +40,7 @@ function stopSound(key) {
         }
     }
 
-keyElement.forEach(function(el) {
+keys.forEach(function(el) {
     el.addEventListener('touchstart', function() {
         playSound(el.id);
     });
@@ -50,7 +50,7 @@ keyElement.forEach(function(el) {
     });
 });
 
-keyElement.forEach(function(el) {
+keys.forEach(function(el) {
     el.addEventListener('touchend', function() {
         stopSound(el.id);
     });

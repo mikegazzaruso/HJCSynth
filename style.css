@@ -5,6 +5,10 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     background: linear-gradient(burlywood 10%, rgb(91, 73, 50));
     background-attachment: fixed;
@@ -13,6 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .title {
