@@ -1,0 +1,12 @@
+{
+    "short_name": "HJCSynth",
+    "name": "HJCSynth",
+    "icons": [{
+      "src": "./images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }],
+    "theme_color": "#f71469",
+    "display": "fullscreen"
+  }
+  
