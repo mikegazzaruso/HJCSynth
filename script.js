@@ -18,6 +18,7 @@ const freqs = {
     la: 440.00,
     ladiesis: 466.164,
     si: 493.883,
+    do1: 523.25,
 }
 
 

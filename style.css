@@ -17,19 +17,34 @@ body {
 
 .title {
     margin-top: -20px;
+    margin-bottom: 1%;
     color: #2b2116;
 }
 
 .subtitle {
-    width: 26%;
+    width: 48%;
     margin-top: -10px;
     margin-bottom: 10px;
     color: #2b2116;
-    text-align: end;
+    text-align: center;
+}
+
+.subtitle p {
+    font-size: 13px;
+}
+
+.piano {
+    display: flex;
+    width: 60vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .piano-panel {
-    height: 94px;
+    width: 80%;
+    height: 30%;
     background-color: #e57e2a;
     display: flex;
     justify-content: flex-end;
@@ -40,18 +55,16 @@ body {
     background-size: contain;
 }
 
-.piano-panel img {
-    width: 160px;
-}
-
 .piano-keys {
-    height: 190px;
+    width: 80%;
+    height: 70%;
     display: flex;
+    justify-content: space-around;
 }
 
 .key-white {
     height: 100%;
-    width: 64px;
+    width: 25%;
     background-color: #ffffff;
     border-right: 2px solid black;
     border-left: 2px solid black;
@@ -66,7 +79,7 @@ body {
 
 .key-black {
     height: 60%;
-    width: 44px;
+    width: 11%;
     background: linear-gradient(#737373 10%, #0D0D0D);
     margin-left: -22px;
     margin-right: -22px;
