@@ -64,7 +64,7 @@ body {
     margin-left: auto;
 }
 
-.wavetype {
+.sinewavetype {
     width: 10%;
     height: 150%;
     text-align: center;
@@ -73,7 +73,16 @@ body {
     align-items: center;
 }
 
-.wavetype img {
+.sawwavetype {
+    width: 10%;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
     border: 1px solid grey;
     border-radius: 50px;
     background-color: burlywood;
@@ -122,6 +131,37 @@ body {
 
 button {
     margin-right: 2%;
+}
+
+.octave {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    border: 1px solid black;
+}
+
+.octave:active {
+    background-color: #ff7300;
+}
+
+.octave p {
+    font-size: 44px;
+}
+
+.selected {
+background-color: #ff7300;
+}
+
+.unselected {
+background-color: burlywood;
+}
+
+.started {
+    background-color: green;
+    color: white;
 }
 
 .noselect {
