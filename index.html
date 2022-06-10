@@ -11,7 +11,7 @@
     <link rel="manifest" href="site.webmanifest">
     <title>HJCSynth</title>
 </head>
-<body class="noelect" oncontextmenu="return false;">
+<body class="noselect" oncontextmenu="return false;">
     <div class="title">
         <h1>HJC Synth</h1>
     </div>
@@ -21,8 +21,13 @@
     </div>
     <div class="piano">
         <div class="piano-panel">
-            <!-- <img src="images/panel-logo.png" alt=""> -->
             <button type="reset" class="startAudio">Start Audio</button>
+            <div class="wavetype">
+                <img src="images/sinewave.png" alt="sinewave">
+            </div>
+            <div class="wavetype">
+                <img src="images/sawtoothwave.png" alt="sawtoothwave">
+            </div>
         </div>
         <div class="piano-keys">
             <div class="key key-white" id="do"></div>

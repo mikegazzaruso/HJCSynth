@@ -47,12 +47,28 @@ body {
     height: 30%;
     background-color: #e57e2a;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     padding: 24px;
-    /* background-image: url('images/panel-reflex.png'); */
     background-repeat: no-repeat;
     background-size: contain;
+    /* background-image: url('images/panel-reflex.png'); */
+}
+
+.wavetype {
+    width: 10%;
+    height: 150%;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.wavetype img {
+    border: 1px solid grey;
+    border-radius: 50px;
+    background-color: burlywood;
+    width: 80%;
 }
 
 .piano-keys {
@@ -92,6 +108,10 @@ body {
 
 .key-black:active {
     background: #000000;
+}
+
+button {
+    margin-right: 2%;
 }
 
 .noselect {
